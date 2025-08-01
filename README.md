@@ -23,21 +23,6 @@ IBM Cloud API key (for watsonx.ai)
 
 An active IBM Cloud account
 
-Installed Python libraries:
-
-bash
-Copy
-Edit
-pip install langchain_ibm ibm-watsonx-ai langgraph
-🔐 Authentication
-You will be prompted to enter your IBM Cloud API key at runtime. The notebook uses this key to:
-
-Authenticate with https://iam.cloud.ibm.com/identity/token
-
-Retrieve a bearer token
-
-Make authorized API calls to the Watsonx foundation model endpoint
-
 🛠️ Tools Integrated
 The agent is configured with the following tools for enhanced query capabilities:
 
